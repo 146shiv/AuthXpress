@@ -32,7 +32,5 @@ app.use("/api/v1/healthcheck", healthCheckRouter);
 app.use("/api/v1/auth", authrouter);
 
 
-app.get("/", (req,res) =>{
-    res.send("Welcome to baseCampy")
-}) 
+
 export default app;
